@@ -32,4 +32,5 @@ if uploaded_file is not None:
     st.pyplot(fig2)
 
 else:
-    st.warning("👆 Please upload a CSV file to continu
+    st.warning("👆 Please upload a CSV file to continue.")
+
