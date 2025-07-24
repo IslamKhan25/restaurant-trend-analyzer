@@ -1,3 +1,4 @@
+
 # 🍽️ Restaurant Trend Analyzer (Zomato Data)
 
 An end-to-end data analytics project built in Python to uncover pricing patterns, customer preferences, and location-based insights using Zomato restaurant data. Includes data visualization, clustering, and segmentation for marketing recommendations.
@@ -18,7 +19,7 @@ An end-to-end data analytics project built in Python to uncover pricing patterns
 ## 🧪 Tools & Technologies
 
 - **Language**: Python 3
-- **Libraries**: `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `plotly`
+- **Libraries**: pandas, matplotlib, seaborn, scikit-learn, plotly
 - **IDE**: Google Colab
 - **Optional**: Streamlit (for app deployment)
 
@@ -26,8 +27,7 @@ An end-to-end data analytics project built in Python to uncover pricing patterns
 
 ## 📂 Dataset
 
-- **Source**: [Kaggle - Zomato Bangalore Restaurants Dataset](https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants)
-- **Columns**: Name, Location, Average Cost, Rating, Cuisines, Online Delivery, Type
+- **Source**: [Zomato Bangalore Restaurants Dataset](https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants)
 
 ---
 
@@ -40,7 +40,27 @@ An end-to-end data analytics project built in Python to uncover pricing patterns
 
 ### Option 2: Run Locally
 ```bash
-git clone https://github.com/<your-username>/restaurant-trend-analyzer.git
+git clone https://github.com/islamkhan25/restaurant-trend-analyzer.git
 cd restaurant-trend-analyzer
 pip install -r requirements.txt
-python app.py  # For Streamlit (if available)
+streamlit run app.py
+```
+
+---
+
+## 📄 Files in This Repo
+
+| File                            | Description                          |
+|----------------------------------|--------------------------------------|
+| `Restaurant_Trend_Analyzer_Zomato.ipynb` | Main analysis notebook         |
+| `README.md`                     | Project documentation                |
+| `app.py`                        | Streamlit deployment script          |
+| `requirements.txt`              | Python dependencies list             |
+
+---
+
+## 📌 Author
+
+**Islam Khan**  
+📧 islamkhan@example.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)
